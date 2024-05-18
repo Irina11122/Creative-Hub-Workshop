@@ -1,11 +1,13 @@
-let age = 29;
+// Vezba 3
 
-if (age <= 12) {
-  console.log("Child ticket: $5");
-} else if (age <= 18) {
-  console.log("Teen ticket: $7");
-} else if (age <= 60) {
-  console.log("Adult ticket: $10");
+let weather = "snowy";
+
+if (weather == "sunny") {
+  console.log("Wear sunglasses!");
+} else if (weather == "rainy") {
+  console.log("Take an umbrella!");
+} else if (weather == "snowy") {
+  console.log("Wear a warm coat!");
 } else {
-  console.log("Senior ticket: $12");
+  console.log("Check the weather forecast for more details.");
 }
