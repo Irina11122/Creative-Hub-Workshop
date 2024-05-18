@@ -1,10 +1,10 @@
 let username = "admin";
-let password = "password123";
+let password = "adminpass";
 
-if ((username === "admin", password === "adminpass")) {
-  console.log("Welcome Admin");
-} else if ((username == "user123" % password === "password123")) {
-  console.log("Welcome User");
+if (username + password === "admin" + "adminpass") {
+  console.log("Welcome admin");
+} else if (username + password === "user123" + "password123") {
+  console.log("Welcome, User123");
 } else {
-  console.log(" Invalid username or password");
+  console.log("Invalid username or password.");
 }
